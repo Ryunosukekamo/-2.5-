@@ -1,0 +1,110 @@
+html,body{
+    width: 100%;    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+header{
+    background-color: bisque;
+    height: 65px;
+    display: block;
+}
+
+/* どうやら、画像を動かすときは、画像ごと動かした方がいいっぽい。でない、headerの上に空白出来る。 */
+header .logo img {
+    height: 30px;
+    background-color: bisque;
+    margin-top: 20px;
+}
+/* widthを小さくしないと、divは元々100％あるから、右側によらない */
+.date{
+    margin-left: auto;
+    width: 10%;
+}
+/* ---------------------------------------------------------------------------- */
+/* TOP */
+
+.top_view{
+    width: 800px;
+    height: 800px;
+    border: solid black 1px;
+    margin: 10px auto;
+
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.top_view img{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------- */
+/* detailed page */
+
+.detailed_page{
+    width: 800px;
+    height: 800px;
+    border-radius: 50px;
+    border: solid;
+    margin: 10px auto;
+    display: none; 
+    border-color: black; 
+    margin: 10px auto;
+}
+/* ---------------------------------------------------------------------- */
+/* 仕様書１ */
+/* .detailed_page_images img{
+    width: 50%;
+}
+
+.detailed_page_images_above{
+    display: flex;
+}
+
+.detailed_page_images_below{
+    display: flex;
+} */
+/* ------------------------------------------------------------------- */
+/* 仕様書２ */
+/* .detailed_page_images img{
+    width: 50%;
+}
+
+.detailed_page_images_below{
+    display: flex;
+} */
+/* ------------------------------------------------------------------- */
+/* 仕様書３ */
+/* .detailed_page_images img{
+    width: 50%;
+} 
+ .detailed_page_images{
+    display: flex;
+} */
+
+/* ------------------------------------------------------------------- */
+/* 仕様書４ */
+
+/* .detailed_page_images img{
+    width: 50%;
+}
+.detailed_page_images_below_child{
+    display: flex;
+} */
+
